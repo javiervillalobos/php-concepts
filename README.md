@@ -11,7 +11,7 @@ Si no tienes instalado docker, revisar la [documentación de Docker](https://doc
 
 Se utiliza una imagen creada por [mattrayner](https://hub.docker.com/r/mattrayner/lamp) que contiene Lamp (php+mysql+phpmyadmin). 
 
-Estando en el directorio que contiene al archivo Dockerfile, ejecutar:
+Estando en el directorio que contiene este código, ejecutar:
 
 ~~~
 docker run -p "80:80" -v ${PWD}:/app mattrayner/lamp:latest-1804
